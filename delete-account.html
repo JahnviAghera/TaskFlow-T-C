@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task Flow - Delete Account</title>
+  <meta name="description" content="How to request account deletion for Task Flow." />
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --text: #17202a;
+      --muted: #4b5563;
+      --brand: #0b63ce;
+      --line: #e5e7eb;
+      --warn-bg: #fff8eb;
+      --warn-text: #7a4e00;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(160deg, #eef3ff 0%, var(--bg) 45%, #f9fafb 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      width: min(920px, 92%);
+      margin: 32px auto;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      box-shadow: 0 12px 32px rgba(17, 24, 39, 0.08);
+      overflow: hidden;
+    }
+
+    header {
+      padding: 28px 24px 20px;
+      background: linear-gradient(135deg, #0b63ce 0%, #0f7adf 55%, #1992ff 100%);
+      color: #fff;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(1.35rem, 3.3vw, 2rem);
+      line-height: 1.25;
+    }
+
+    .meta {
+      margin: 0;
+      font-size: 0.95rem;
+      opacity: 0.95;
+    }
+
+    nav {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      padding: 14px 24px;
+      background: #f8fbff;
+      border-bottom: 1px solid var(--line);
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--brand);
+      font-weight: 600;
+      border: 1px solid #c9def8;
+      background: #ffffff;
+      border-radius: 999px;
+      padding: 8px 14px;
+      font-size: 0.9rem;
+    }
+
+    main {
+      padding: 24px;
+    }
+
+    section {
+      margin-bottom: 24px;
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.3rem;
+      color: #0e3f77;
+    }
+
+    p {
+      margin: 0 0 10px;
+      color: var(--muted);
+    }
+
+    ol,
+    ul {
+      margin: 8px 0 12px 22px;
+      color: var(--muted);
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    .note {
+      border-left: 4px solid #f59e0b;
+      background: var(--warn-bg);
+      padding: 10px 12px;
+      border-radius: 6px;
+      color: var(--warn-text);
+      font-size: 0.95rem;
+    }
+
+    code {
+      background: #f3f4f6;
+      padding: 1px 6px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 14px 24px 20px;
+      font-size: 0.92rem;
+      color: #6b7280;
+      background: #fcfcfd;
+    }
+
+    @media (max-width: 640px) {
+      .container {
+        width: 95%;
+        margin: 16px auto;
+      }
+
+      main,
+      nav,
+      header,
+      footer {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Task Flow - Account Deletion Request</h1>
+      <p class="meta">Effective date: 11 March 2026</p>
+    </header>
+
+    <nav>
+      <a href="#how-to-delete">How to Delete</a>
+      <a href="#what-is-deleted">What Is Deleted</a>
+      <a href="#what-is-retained">What Is Retained</a>
+      <a href="#contact">Contact</a>
+      <a href="Tand c.html">Privacy Policy &amp; Terms</a>
+    </nav>
+
+    <main>
+      <section id="how-to-delete">
+        <h2>How To Request Account Deletion</h2>
+        <p>You can request permanent deletion of your Task Flow account by email.</p>
+        <ol>
+          <li>Send an email to <code>jahnviaghera@gmail.com</code> from your registered account email.</li>
+          <li>Use the subject line: <code>Delete My Task Flow Account</code>.</li>
+          <li>Include your full name and registered phone number (if used in the app).</li>
+          <li>Our support team will verify your request and confirm deletion.</li>
+        </ol>
+        <p>Deletion requests are processed within <strong>7 business days</strong>.</p>
+      </section>
+
+      <section id="what-is-deleted">
+        <h2>Data Deleted After Confirmation</h2>
+        <ul>
+          <li>Your profile details and account settings</li>
+          <li>Assigned task participation data tied directly to your user account</li>
+          <li>Uploaded personal files linked only to your account</li>
+        </ul>
+      </section>
+
+      <section id="what-is-retained">
+        <h2>Data That May Be Retained</h2>
+        <ul>
+          <li>Audit, legal, or fraud-prevention logs required by law</li>
+          <li>Records needed to resolve disputes or enforce agreements</li>
+          <li>Aggregated, non-identifiable analytics</li>
+        </ul>
+        <p class="note">Retention is limited to legal, security, and compliance purposes only.</p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>If you need help with deletion, contact: <code>jahnviaghera@gmail.com</code></p>
+      </section>
+    </main>
+
+    <footer>
+      Task Flow Support | Account Deletion Information
+    </footer>
+  </div>
+</body>
+</html>
